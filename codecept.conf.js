@@ -23,7 +23,6 @@ exports.config = {
     I: './steps_file.js',
     basePage: './pages/base.js',
     registerPage: './pages/register.js',
-    successPage: './pages/success.js',
   },
   name: 'automation_ssigaev',
 };

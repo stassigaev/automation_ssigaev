@@ -21,7 +21,7 @@ module.exports = {
     I.fillField(this.emailField, user.email);
     I.fillField(this.telephoneField, user.telephone);
     I.fillField(this.passwordField, user.password);
-    I.fillField(this.passwordConfirmationField, user.passwordConfirmation);
+    I.fillField(this.passwordConfirmationField, user.password);
   },
 
   clickOnSubscribeRadio() {
@@ -35,5 +35,8 @@ module.exports = {
   },
   verifyRegisterPage() {
     I.see('Register Account');
+  },
+  verifySuccessPage() {
+    I.see('Your Account Has Been Created!');
   },
 };
