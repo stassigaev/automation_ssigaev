@@ -18,6 +18,9 @@ exports.config = {
       show: true,
       browser: 'chromium',
     },
+    ChaiWrapper: {
+      require: 'codeceptjs-chai',
+    },
   },
   include: {
     I: './steps_file.js',
